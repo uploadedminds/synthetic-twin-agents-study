@@ -1,0 +1,16 @@
+name: synthetic-twin-agents-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ace_tools
+  - pandas
+  - numpy
+  - scipy
+  - pingouin
+  - statsmodels
+  - scikit-learn
+  - pip
+  - ipykernel
+  - pip:
+      - edsl==0.1.62

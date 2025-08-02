@@ -1,3 +1,3 @@
 # The Potential of Synthetic Twin Agents for Personalized Behavioural Interventions
 
-The Potential of Synthetic Twin Agents for Personalized Behavioural Interventions Study
+Evidence from a Proof-of-Concept Study Using Personality-Tailored Advertisements

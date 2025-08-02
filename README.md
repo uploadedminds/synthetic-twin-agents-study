@@ -6,7 +6,7 @@ Evidence from a Proof-of-Concept Study Using Personality-Tailored Advertisements
 
 This repository contains the analysis code and data for a study investigating the potential of synthetic twin agents for personalized behavioural interventions. The study uses personality-tailored advertisements as a proof-of-concept application.
 
-The study employs the **[edsl package](https://github.com/expectedparrot/edsl)** for administering surveys to synthetic twin participants, enabling controlled experimental designs with AI-generated participants that mirror human behavioral patterns.
+The study employs the **[edsl](https://github.com/expectedparrot/edsl)** package for administering surveys to synthetic twin participants, enabling controlled experimental designs with AI-generated participants that mirror human behavioral patterns.
 
 ## Setup Instructions
 

@@ -12,7 +12,7 @@ The study employs the **[edsl](https://github.com/expectedparrot/edsl)** package
 
 ### Prerequisites
 
-- [Conda](https://docs.conda.io/en/latest/miniconda.html) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
+- [conda](https://docs.conda.io/en/latest/miniconda.html) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
 
 ### Environment Setup
 

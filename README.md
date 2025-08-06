@@ -126,6 +126,6 @@ If you reuse the dataset, analysis, or paper, please cite:
 ## License
 
 - 🧑‍💻 **Code** is licensed under the [BSD 3-Clause License](LICENSE)
-- 📊 **Dataset & Research Paper** are licensed under [CC BY 4.0](LICENSE_DATA)
+- 📊 **Dataset & Research Paper** are licensed under [CC BY 4.0](LICENSE-DATA)
 
 

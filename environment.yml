@@ -13,4 +13,4 @@ dependencies:
   - pip
   - ipykernel
   - pip:
-      - edsl==0.1.62
+      - edsl==1.0.1

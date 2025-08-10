@@ -1,9 +1,8 @@
-name: synthetic-twin-agents-env
+name: synthetic-twin-agents-env-legacy
 channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - ace_tools
   - pandas
   - numpy
   - scipy
@@ -13,4 +12,5 @@ dependencies:
   - pip
   - ipykernel
   - pip:
+      - ace_tools
       - edsl==0.1.62

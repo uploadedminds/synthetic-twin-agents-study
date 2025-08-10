@@ -1,4 +1,4 @@
-name: synthetic-twin-agents-env-legacy
+name: synthetic-twin-agents-env
 channels:
   - conda-forge
 dependencies:

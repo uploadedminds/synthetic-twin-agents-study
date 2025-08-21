@@ -8,11 +8,7 @@ __pycache__/
 **/.ipynb_checkpoints/
 .jupyter
 
-<<<<<<< HEAD
 annaconda_projects/
 **/_annaconda_projects_/
 
 create_synthetic_twin_agents/synthetics_survey_results/
-=======
-annaconda_projects
->>>>>>> origin/main

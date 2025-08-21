@@ -8,4 +8,7 @@ __pycache__/
 **/.ipynb_checkpoints/
 .jupyter
 
-annaconda_projects
+annaconda_projects/
+**/_annaconda_projects_/
+
+create_synthetic_twin_agents/synthetics_survey_results/

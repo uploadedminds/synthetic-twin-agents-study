@@ -1,4 +1,7 @@
-name: synthetic-twin-agents-env-legacy
+#pip show edsl
+#pip install git+https://github.com/expectedparrot/edsl.git@main
+#grep -n "refresh_rate.*=" /opt/anaconda3/envs/synthetic-twin-agents-env-legacy/lib/python3.12/site-packages/edsl/jobs/jobs_runner_status.py
+name: synthetic-twin-agents-env
 channels:
   - conda-forge
 dependencies:
@@ -11,6 +14,7 @@ dependencies:
   - scikit-learn
   - pip
   - ipykernel
+  - git
   - pip:
       - ace_tools
-      - edsl==0.1.62
+      - git+https://github.com/expectedparrot/edsl.git@main

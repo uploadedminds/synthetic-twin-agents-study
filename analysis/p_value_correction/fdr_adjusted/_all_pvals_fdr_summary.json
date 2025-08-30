@@ -1,0 +1,9 @@
+{
+    "file": "all_pvals.json",
+    "alpha": 0.05,
+    "n_tests": 495,
+    "n_significant": 231,
+    "effective_fdr_threshold_raw": 0.021576472471996583,
+    "min_adjusted_p_among_significant": 0.0,
+    "max_adjusted_p_among_significant": 0.04623529815427839
+}

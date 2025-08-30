@@ -6,7 +6,6 @@ from statsmodels.stats.multitest import multipletests
 
 folder = "."
 
-alpha = 0.05
 fdr_folder = os.path.join(folder, "fdr_adjusted")
 os.makedirs(fdr_folder, exist_ok=True)
 
@@ -31,7 +30,7 @@ if all_pvals.size == 0:
     exit(1)
 
 
-rejected, pvals_adj_global, _, _ = multipletests(all_pvals, method="fdr_bh", alpha=alpha)
+rejected, pvals_adj_global, pvals_correctedndarray, _ = multipletests(all_pvals, method="fdr_bh", alpha=0.05)
 
 # Effective threshold = largest *raw* p-value that is still significant after FDR
 if rejected.any():
@@ -57,8 +56,7 @@ with open(out_adj, "w") as f:
 print(f"Adjusted p-values written: {out_adj}")
 
 summary = {
-    "file": filename,
-    "alpha": alpha,
+    "alpha": 0.05,
     "n_tests": int(all_pvals.size),
     "n_significant": n_sig,
     "effective_fdr_threshold_raw": effective_threshold_raw,  # the "p < X (FDR-adjusted)" cutoff

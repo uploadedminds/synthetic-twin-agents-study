@@ -121,7 +121,7 @@ If you encounter issues with the conda environment:
 
 If you reuse the dataset, analysis, or paper, please cite:
 
-> Ustiyanovych, J. & Krpan, D. (2025). *The Potential of Synthetic Twin Agents for Personalized Behavioural Interventions at Scale*. Biases & Heuristics Lab, in collaboration with the London School of Economics and Political Science.
+> Ustiyanovych, J. & Krpan, D. (2025). *The Potential of Synthetic Twin Agents for Personalized Behavioural Interventions at Scale*. Uploaded Minds Lab, in collaboration with the London School of Economics and Political Science.
 
 
 ## License

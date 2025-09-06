@@ -1,6 +1,5 @@
 # mappings.py
-
-countries = {
+COUNTRIES = {
     1: "Afghanistan",
     2: "Albania",
     3: "Algeria",
@@ -196,7 +195,7 @@ countries = {
     193: "Zimbabwe"
 }
 
-states = {
+STATES = {
     1: "Alabama",
     2: "Alaska",
     3: "Arizona",
@@ -252,7 +251,7 @@ states = {
     53: "I do not reside in the United States"
 }
 
-mappings = {
+MAPPINGS = {
     'gender': {
         1: 'Male',
         2: 'Female',
@@ -301,8 +300,8 @@ mappings = {
         6: 'Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)',
         7: 'Prefer not to say'
     },
-    'state': states,
-    'country': countries,
+    'state': STATES,
+    'country': COUNTRIES,
     'political_orientaton': {
         1: 'Republican',
         2: 'Democrat',
